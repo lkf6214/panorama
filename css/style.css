@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Overpass+Mono&display=swap");
 * {
   margin: 0px;
   padding: 0px;
@@ -21,7 +21,7 @@ img {
 
 body {
   background-color: black;
-  font: 17px/1.4 "Overpass Mono";
+  font: 17px/1.4 "Overpass Mono", "Nanum Myeongjo";
   color: #ddd;
 }
 body .wrap {
@@ -38,7 +38,7 @@ body .wrap > video {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 body .wrap #circle {
   width: 600px;
@@ -72,7 +72,7 @@ body .wrap #circle article .inner > div {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.9;
   transition: 0.5s;
 }
 body .wrap #circle article .inner > div:hover {
@@ -93,7 +93,7 @@ body .wrap #circle article.item1 .inner div:nth-of-type(odd) {
   margin-right: 20px;
 }
 body .wrap #circle article.item1 .inner div i {
-  color: lightcyan;
+  color: whitesmoke;
   font-size: 100px;
   opacity: 0.7;
   transition: 0.5s;
@@ -103,12 +103,12 @@ body .wrap #circle article.item1 .inner div h2 {
   transition: 0.5s;
 }
 body .wrap #circle article.item1 .inner div:hover i {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
-  transform: scale(1.2);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
+  transform: scale(1.3);
   opacity: 1;
 }
 body .wrap #circle article.item1 .inner div:hover h2 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
@@ -117,14 +117,16 @@ body .wrap #circle article.item2 {
 }
 body .wrap #circle article.item2 .inner div h2 {
   font: bold 24px/1;
-  color: lightcyan;
+  color: whitesmoke;
 }
 body .wrap #circle article.item2 .inner div img {
   width: 100%;
   margin: 20px 0 40px 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgb(41, 41, 41);
 }
 body .wrap #circle article.item2 .inner div h3 {
-  color: lightcyan;
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 body .wrap #circle article.item2 .inner div p {
@@ -132,13 +134,13 @@ body .wrap #circle article.item2 .inner div p {
 }
 body .wrap #circle article.item2 .inner div:hover h2,
 body .wrap #circle article.item2 .inner div:hover h3 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
 }
 body .wrap #circle article.item3 {
   transform: rotateY(90deg) translateZ(-764px);
 }
 body .wrap #circle article.item3 .inner div {
-  width: 290px;
+  width: 100%;
   height: 254px;
   float: left;
   margin-bottom: 20px;
@@ -148,7 +150,7 @@ body .wrap #circle article.item3 .inner div:nth-of-type(odd) {
   margin-right: 20px;
 }
 body .wrap #circle article.item3 .inner div i {
-  color: lightcyan;
+  color: whitesmoke;
   font-size: 100px;
   opacity: 0.7;
   transition: 0.5s;
@@ -158,12 +160,12 @@ body .wrap #circle article.item3 .inner div h2 {
   transition: 0.5s;
 }
 body .wrap #circle article.item3 .inner div:hover i {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
 body .wrap #circle article.item3 .inner div:hover h2 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
@@ -172,14 +174,14 @@ body .wrap #circle article.item4 {
 }
 body .wrap #circle article.item4 .inner div h2 {
   font: bold 24px/1;
-  color: lightcyan;
+  color: whitesmoke;
 }
 body .wrap #circle article.item4 .inner div img {
   width: 100%;
   margin: 20px 0 40px 0;
 }
 body .wrap #circle article.item4 .inner div h3 {
-  color: lightcyan;
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 body .wrap #circle article.item4 .inner div p {
@@ -187,7 +189,7 @@ body .wrap #circle article.item4 .inner div p {
 }
 body .wrap #circle article.item4 .inner div:hover h2,
 body .wrap #circle article.item4 .inner div:hover h3 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
 }
 body .wrap #circle article.item5 {
   transform: rotateY(180deg) translateZ(-764px);
@@ -203,7 +205,7 @@ body .wrap #circle article.item5 .inner div:nth-of-type(odd) {
   margin-right: 20px;
 }
 body .wrap #circle article.item5 .inner div i {
-  color: lightcyan;
+  color: whitesmoke;
   font-size: 100px;
   opacity: 0.7;
   transition: 0.5s;
@@ -213,12 +215,12 @@ body .wrap #circle article.item5 .inner div h2 {
   transition: 0.5s;
 }
 body .wrap #circle article.item5 .inner div:hover i {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
 body .wrap #circle article.item5 .inner div:hover h2 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
@@ -227,14 +229,14 @@ body .wrap #circle article.item6 {
 }
 body .wrap #circle article.item6 .inner div h2 {
   font: bold 24px/1;
-  color: lightcyan;
+  color: whitesmoke;
 }
 body .wrap #circle article.item6 .inner div img {
   width: 100%;
   margin: 20px 0 40px 0;
 }
 body .wrap #circle article.item6 .inner div h3 {
-  color: lightcyan;
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 body .wrap #circle article.item6 .inner div p {
@@ -242,7 +244,7 @@ body .wrap #circle article.item6 .inner div p {
 }
 body .wrap #circle article.item6 .inner div:hover h2,
 body .wrap #circle article.item6 .inner div:hover h3 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
 }
 body .wrap #circle article.item7 {
   transform: rotateY(270deg) translateZ(-764px);
@@ -258,7 +260,7 @@ body .wrap #circle article.item7 .inner div:nth-of-type(odd) {
   margin-right: 20px;
 }
 body .wrap #circle article.item7 .inner div i {
-  color: lightcyan;
+  color: whitesmoke;
   font-size: 100px;
   opacity: 0.7;
   transition: 0.5s;
@@ -268,12 +270,12 @@ body .wrap #circle article.item7 .inner div h2 {
   transition: 0.5s;
 }
 body .wrap #circle article.item7 .inner div:hover i {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
 body .wrap #circle article.item7 .inner div:hover h2 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
   transform: scale(1.2);
   opacity: 1;
 }
@@ -282,14 +284,14 @@ body .wrap #circle article.item8 {
 }
 body .wrap #circle article.item8 .inner div h2 {
   font: bold 24px/1;
-  color: lightcyan;
+  color: whitesmoke;
 }
 body .wrap #circle article.item8 .inner div img {
   width: 100%;
   margin: 20px 0 40px 0;
 }
 body .wrap #circle article.item8 .inner div h3 {
-  color: lightcyan;
+  color: whitesmoke;
   margin-bottom: 10px;
 }
 body .wrap #circle article.item8 .inner div p {
@@ -297,7 +299,7 @@ body .wrap #circle article.item8 .inner div p {
 }
 body .wrap #circle article.item8 .inner div:hover h2,
 body .wrap #circle article.item8 .inner div:hover h3 {
-  text-shadow: 0px 0px 10px rgb(7, 67, 197);
+  text-shadow: 0px 0px 10px rgb(41, 41, 41);
 }
 
 @keyframes panorama {
